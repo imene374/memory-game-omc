@@ -2,12 +2,12 @@ import { useState, useEffect, useRef } from 'react'
 import './App.css'
 
 const cardImages = [
-  { "src": "/bannane.webp", matched: false },
-  { "src": "/fraise.webp", matched: false },
-  { "src": "/framboise.webp", matched: false },
-  { "src": "/orange.webp", matched: false },
-  { "src": "/pomme.webp", matched: false },
-  { "src": "/kiwi.webp", matched: false },
+  { "src": "/memory-game-omc/bannane.webp", matched: false },
+  { "src": "/memory-game-omc/fraise.webp", matched: false },
+  { "src": "/memory-game-omc/framboise.webp", matched: false },
+  { "src": "/memory-game-omc/orange.webp", matched: false },
+  { "src": "/memory-game-omc/pomme.webp", matched: false },
+  { "src": "/memory-game-omc/kiwi.webp", matched: false },
 ]
 
 function App() {
