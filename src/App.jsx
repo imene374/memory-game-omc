@@ -1,15 +1,20 @@
 import { useState, useEffect, useRef } from 'react'
 import './App.css'
+import bannane from './assets/bannane.webp'
+import fraise from './assets/fraise.webp'
+import framboise from './assets/framboise.webp'
+import orange from './assets/orange.webp'
+import pomme from './assets/pomme.webp'
+import kiwi from './assets/kiwi.webp'
 
 const cardImages = [
-  { "src": "/memory-game-omc/bannane.webp", matched: false },
-  { "src": "/memory-game-omc/fraise.webp", matched: false },
-  { "src": "/memory-game-omc/framboise.webp", matched: false },
-  { "src": "/memory-game-omc/orange.webp", matched: false },
-  { "src": "/memory-game-omc/pomme.webp", matched: false },
-  { "src": "/memory-game-omc/kiwi.webp", matched: false },
+  { src: bannane, matched: false },
+  { src: fraise, matched: false },
+  { src: framboise, matched: false },
+  { src: orange, matched: false },
+  { src: pomme, matched: false },
+  { src: kiwi, matched: false },
 ]
-
 function App() {
   const [cards, setCards] = useState([])
   const [turns, setTurns] = useState(0)
